@@ -15,12 +15,8 @@
 .pura {
     height: 100vh;
     width: 100%;
-    /* background-color:BLACK ; */
-    /* background-image: url('2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
-    /* background-color: aliceblue; */
+  
+     
 }
 
 .header {
@@ -99,6 +95,10 @@ nav li a:hover::after {
 .hero {
     width: 100%;
     height: 100vh;
+    background-image: url("krishan.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:right;
     background-color: aliceblue;
     display: flex;
     justify-content: center;
@@ -132,10 +132,11 @@ nav li a:hover::after {
 
 /* ---------feature box-------- */
 .feature {
-    /* background-color: rgba(1, 227, 114, 0.684); */
+    /* background-color: rgba(1, 227, 114, 0.684);
+     */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
     flex-wrap: wrap;
     gap: 10px;
 
@@ -177,15 +178,13 @@ nav li a:hover::after {
 
 
 
-.products{
-    /* background-color: rgba(1, 227, 114, 0.684); */
-}
+
 .f-icon {
-    /* background-color: rgba(1, 227, 114, 0.684); */
+
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-wrap: wrap; */
+   
     flex-direction: column;
     margin-bottom: 50px;
 
@@ -218,8 +217,12 @@ nav li a:hover::after {
     position: relative;
     background-color: rgb(214, 218, 221);
     border-radius: 14px;
+}
 
-
+.starf{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .pro1 img {
@@ -236,7 +239,8 @@ nav li a:hover::after {
 .fa-star {
     color: yellow;
     display: inline-block;
-    padding-bottom: 13px;
+    /* padding-bottom: 13px; */
+    margin: 0 1px ;
 
 }
 
@@ -386,7 +390,7 @@ button .btn:hover {
 .rtn button {
     padding: 10px 12px;
     background-color: green;
-    border: 2px solid green;
+    border: 3px solid green;
 
 
 }
@@ -397,6 +401,63 @@ button .btn:hover {
 }
 
 
+.cet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px ;
+    border-radius: 12px ;
+    border: 1.3px solid skyblue;
+    margin: 2px;
+
+}
+.apple{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px  ;
+    border-radius: 12px;
+    border: 1.3px solid skyblue ;
+    margin: 2px;
+}
+.app{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    margin-left:5px;
+  
+}
+
+.fa-app-store-ios{
+    font-size: 50px;
+}
+.app p{
+font-size: 12px;
+}
+
+.appicon{
+    flex-basis: 30%;
+}
+.app{
+    flex-basis: 70%;
+}
+.google h4{
+    padding-left: 10px;
+}
+
+.fa-google-play{
+    font-size: 50px;
+}
+
+
+
 .footer {
     padding-top: 100px;
     display: flex;
@@ -405,6 +466,9 @@ button .btn:hover {
     flex-wrap: wrap;
     /* background-color: rgba(1, 227, 114, 0.975); */
 
+}
+.row1{
+margin-bottom: 40px;
 }
 .last{
     background-color: rgba(173, 173, 173, 0.684);
@@ -429,15 +493,19 @@ button .btn:hover {
 }
 
 .gapi {
-    padding-bottom: 30px;
+    padding-bottom: 18px;
 }
 
 .cetira {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
+}
+.fa-cc-visa,.fa-cc-mastercard{
+    font-size: 60px;
+    margin: 0 5px;
 }
 
 nav .fa-solid {
@@ -482,7 +550,7 @@ nav .fa-solid {
     }
 
     .f-icon h3 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .f-icon h1 {
@@ -512,7 +580,7 @@ nav .fa-solid {
     }
 
     .login-right h2 {
-        font-size: 27px;
+        font-size: 26px;
         font-weight: 400;
     }
 
